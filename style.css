@@ -1,0 +1,185 @@
+/* === Global Styles === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #012d1a; /* deep dark green */
+  color: #f5f5dc; /* light beige */
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: gold;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Header === */
+header {
+  background-color: #012d1a;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid gold;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+/* === Hero Section === */
+#hero {
+  background: linear-gradient(to bottom, #014421, #012d1a);
+  text-align: center;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid gold;
+}
+
+#hero h2 {
+  font-size: 2.2rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0.5rem 0;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* === Profile Picture Animation === */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid gold;
+  margin-bottom: 1rem;
+
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInProfile 1.5s ease-out forwards;
+}
+
+@keyframes fadeInProfile {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* === Fade-in for Name and Text === */
+.fade-name {
+  opacity: 0;
+  animation: fadeInText 1.5s ease-out forwards;
+  animation-delay: 1.2s;
+}
+
+.fade-subtitle {
+  opacity: 0;
+  animation: fadeInText 1.5s ease-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+  }
+}
+
+/* === Sections === */
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.skills-list, .project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li, .project-list li {
+  background-color: #014421;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border-left: 4px solid gold;
+}
+
+/* === Buttons === */
+.btn {
+  display: inline-block;
+  background-color: gold;
+  color: #012d1a;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffd700;
+}
+
+/* === Form === */
+form input, form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: gold;
+  color: #012d1a;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #ffd700;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid gold;
+  background-color: #012d1a;
+}
