@@ -80,8 +80,8 @@ nav {
 
 /* === Profile Picture Animation === */
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid gold;
