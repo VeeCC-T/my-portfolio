@@ -44,15 +44,11 @@ my-portfolio/
 
 ---
 
-## 🚀 Getting Started
-
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/VeeCC-T/my-portfolio.git
-
 2️⃣ Open the project folder
 cd my-portfolio
-
 3️⃣ Open in browser
 Double‑click index.html
 
@@ -74,10 +70,12 @@ Twitter/X: @silvia_ikyumeh
 GitHub: VeeCC-T
 
 ⭐ Made with dedication for the PLP Hackathon 2025
-## **Next Steps**
-1. **Save** (`Ctrl + S` or `Cmd + S`).
-2. Push it to GitHub:
-```bash
+
+---
+
+### **Push to GitHub**
+``
 git add README.md
 git commit -m "Add hackathon-ready README.md"
 git push
+
