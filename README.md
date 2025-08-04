@@ -32,11 +32,14 @@ The project applies the concepts learned in our live PLP sessions — from seman
 
 ## 📂 File Structure
 my-portfolio/
+├── assets/
+│ ├── CV/
+│ │ └── Vee-Ikyumeh-CV.pdf
+│ └── Images/
+│ └── profile.jpg
 ├── index.html
-├── style.css
-└── assets/
-├── profile.jpg
-└── Vee-Ikyumeh-CV.pdf
+├── README.md
+└── style.css
 
 
 ---
@@ -70,9 +73,7 @@ Twitter/X: @silvia_ikyumeh
 
 GitHub: VeeCC-T
 
-
----
-
+⭐ Made with dedication for the PLP Hackathon 2025
 ## **Next Steps**
 1. **Save** (`Ctrl + S` or `Cmd + S`).
 2. Push it to GitHub:
